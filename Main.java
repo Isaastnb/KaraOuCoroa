@@ -20,10 +20,12 @@ public class Main {
         String c1 = sc.nextLine();
         System.out.print("Choice 2: ");
         String c2 = sc.nextLine();
+        loop2 = true;
         while(loop2){
             System.out.println("--------------------------------");
             System.out.println("Flipping the coin...");
             System.out.println("--------------------------------");
+            
             try{
                 Thread.sleep(2000);
             } catch (InterruptedException e){
